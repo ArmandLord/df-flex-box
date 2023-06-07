@@ -1,0 +1,123 @@
+* {
+  font-family: "Hind", sans-serif;
+  font-family: "PT Sans", sans-serif;
+}
+
+a {
+  text-decoration: underline;
+  color: #0b83de;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgb(242, 247, 18);
+  background: linear-gradient(
+    188deg,
+    rgba(242, 247, 18, 1) 0%,
+    rgba(254, 54, 54, 1) 100%
+  );
+  border-radius: 1rem;
+}
+
+.bg-container {
+  background: rgb(0, 42, 115);
+  padding: 10px;
+}
+
+.jc-flex-start {
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 1rem; */
+}
+
+.jc-flex-end {
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 1rem; */
+}
+
+.jc-flex-end:hover {
+  justify-content: flex-end;
+}
+
+.jc-flex-center {
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 1rem; */
+}
+
+.jc-flex-center:hover {
+  justify-content: center;
+}
+
+.jc-flex-space-between {
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 1rem; */
+}
+
+.jc-flex-space-between:hover {
+  justify-content: space-between;
+}
+
+.jc-flex-space-around {
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 1rem; */
+}
+
+.jc-flex-space-around:hover {
+  justify-content: space-around;
+}
+
+.jc-flex-space-evenly {
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 1rem; */
+}
+
+.jc-flex-space-evenly:hover {
+  justify-content: space-evenly;
+}
+
+/* align items */
+
+.bg-c {
+  background: rgb(0, 42, 115);
+  width: 300px;
+  height: 300px;
+}
+
+.bg-i {
+  background: rgb(242, 247, 18);
+  background: linear-gradient(
+    188deg,
+    rgba(242, 247, 18, 1) 0%,
+    rgba(254, 54, 54, 1) 100%
+  );
+  width: 100px;
+  height: 100px;
+  border-radius: 1rem;
+}
+
+.ai-flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ai-flex-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ai-flex-center {
+  display: flex;
+  align-items: center;
+}
